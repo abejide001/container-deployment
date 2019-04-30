@@ -1,2 +1,3 @@
-Dockerfiles/merry-ah-backend/.env
+Dockerfiles/merry-ah-backend/
 .env
+Dockerfiles/merry-ah-frontend
