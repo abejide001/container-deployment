@@ -1,0 +1,160 @@
+
+.profile-banner{
+    height: 470px;
+    width: 100%;
+    position: absolute;
+    background:url('../images/banner10.jpg'), rgb(51, 50, 50);
+    background-blend-mode: overlay;
+    background-position-y: -50px;
+    background-position-x: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -2;
+}
+#profile-image{
+    position: absolute;
+    z-index: 2;
+    margin-top: 347px;
+    margin-left: 300px;
+}
+
+#profile-image #firsr{
+    width: 230px;
+    height: 230px;
+    border-radius: 50% ;
+}
+#profile-image h2{
+    position: relative;
+    top: -4.5em;
+    padding-left: 0.5em;
+    left: 7em;
+    font-weight: bolder;
+    color: white;
+}
+#edit-button {
+    margin-top: 19.8em;
+    position: relative;
+    right: 0.7em;
+    float: right;
+    text-align: center;
+    height: 2.8em;
+    padding-left: 2em;
+    padding-right: 2em;
+    font-weight: bolder;
+    color: white;
+}
+#aside{
+    position: absolute;
+    width: 430px;
+    height: 80px;
+    left: 73em;
+    top: 29.5em;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.25);
+    line-height: 1.5em;
+    padding-left: 2.3em;
+    padding-right: 1em;
+    z-index: -1;
+}
+
+.aside{
+    text-align: center;
+    padding: 0.8em
+}
+.aside-text{
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 1em;
+color: #777777;
+}
+.profile-header{
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+font-size: 25px;
+
+
+}
+#art-list{
+position: relative;
+top: 40em;
+left: 8em;
+max-width: 75%;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 7em;
+z-index: -1;
+
+}
+
+.my-card{
+width: 280px;
+height: 230px;
+background-size: cover;
+background-repeat:   no-repeat;
+background-position: center center;  
+box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.25);
+background-blend-mode: overlay;
+border-radius: 5px 5px 0px 0px;
+
+}
+.my-card a{
+    font-family: poppins;
+}
+
+.card-category{
+width: 80px;
+height: 30px;
+float: right;
+text-align: center;
+top: 630px;
+color: white;
+background: rgba(0, 0, 0, 0.57);
+box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+border-radius: 0px 5px;
+}
+.card-title{
+color: white;
+width: 280px;
+height: 80px;
+left: 845px;
+top: 766px !important;
+background: rgba(0, 0, 0, 0.62);
+padding: 10px;
+padding-left: 15px;
+}
+
+
+.card-title p{
+    color:  #CCCCCC;
+    font-size: 12px;
+}
+
+.card-container {
+    padding-top: 150px;
+}
+
+.card-footer{
+    width: 280px;
+    height: 70px;
+    background: #000000;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 5px 5px;
+    margin-bottom: 1.2em;
+    padding-top: 1.4em;
+    }
+.comments{
+    display: inline-block;
+    color: white;
+    font-size: 0.8em;
+}
+.comments p{
+    display: inline-block;
+    margin: 3px;
+}
+.ratings{
+    display: inline-block;
+    float: right;
+}

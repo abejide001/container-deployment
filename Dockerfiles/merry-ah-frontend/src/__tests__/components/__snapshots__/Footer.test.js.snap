@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer Component should match snapshot 1`] = `
+<footer>
+  <div>
+    <div
+      className="row"
+    >
+      <div
+        className="col-lg-3 col-sm-12 float-left pull-left text-center"
+      >
+        <li>
+          <p>
+            © 2019 All Rights Reserved
+          </p>
+        </li>
+      </div>
+      <div
+        className="col-lg-7"
+      >
+         
+      </div>
+      <div
+        className="col-lg-2 col-sm-12 pull-right text-center"
+      >
+        <ul>
+          <li>
+            <a
+              href="#"
+            >
+              <i
+                className="fa fa-facebook-f"
+              >
+                 
+              </i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+            >
+              <i
+                className="fa fa-twitter"
+              >
+                 
+              </i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+            >
+              <i
+                className="fa fa-instagram"
+              >
+                 
+              </i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+`;

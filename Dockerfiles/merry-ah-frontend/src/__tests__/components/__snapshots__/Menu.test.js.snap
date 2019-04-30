@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Menu Component should match snapshot 1`] = `
+<nav
+  className="navbar navbar-expand-lg bg-light w-100 my-nav-style"
+  id="nav"
+>
+  <Logo />
+  <button
+    aria-controls="navbarSupportedContent"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+    className="navbar-toggler pull-right"
+    data-target="#navbarSupportedContent"
+    data-toggle="collapse"
+    type="button"
+  >
+    <span
+      className="navbar-toggler-icon"
+    >
+      <i
+        className="fa fa-bars"
+      >
+         
+      </i>
+    </span>
+  </button>
+  <div
+    className="collapse navbar-collapse"
+    id="navbarSupportedContent"
+  >
+    <Search />
+    <ul
+      className="navbar-nav mr-auto offset-1 offset-md-2"
+    >
+      <li
+        className="nav-item"
+      >
+        <NavLink
+          activeClassName="active"
+          aria-current="page"
+          to="/notify"
+        >
+          <i
+            className="fa fa-bell m-3"
+          >
+             
+          </i>
+        </NavLink>
+      </li>
+      <li
+        className="nav-item dropdown"
+      >
+        <a
+          aria-expanded="false"
+          aria-haspopup="true"
+          className="nav-link d-inline-flex text-capitalize"
+          data-toggle="dropdown"
+          href="#"
+          id="navbarDropdown"
+          role="button"
+        >
+           
+          Juliet
+          <i
+            className="fa fa-caret-down m-2"
+          />
+        </a>
+        <div
+          aria-labelledby="navbarDropdown"
+          className="dropdown-menu"
+        >
+          <NavLink
+            activeClassName="active"
+            aria-current="page"
+            className="dropdown-item"
+            to="/profile"
+          >
+            My Profile
+          </NavLink>
+          <NavLink
+            activeClassName="active"
+            aria-current="page"
+            className="dropdown-item d-none"
+            to="/create-art"
+          >
+            Create Art
+          </NavLink>
+          <div
+            className="dropdown-divider"
+          />
+          <NavLink
+            activeClassName="active"
+            aria-current="page"
+            className="dropdown-item"
+            id="nav-link"
+            onClick={[Function]}
+            to="/arts"
+          >
+            logout
+          </NavLink>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+`;

@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FeatureCard Component should match snapshot 1`] = `
+<div
+  className="cardactive"
+  id="cards"
+  style={
+    Object {
+      "background": "linear-gradient(rgba(0, 0, 0, 0.5), 
+                    rgba(0, 0, 0, 0.5)), url(../a.jpeg) no-repeat center ",
+      "backgroundSize": "cover",
+    }
+  }
+>
+  <div
+    id="feature_button_div"
+  >
+    <h5>
+      title
+    </h5>
+    <FeatureButton
+      myclass="feature_button_inactive"
+      text="View"
+    />
+  </div>
+</div>
+`;

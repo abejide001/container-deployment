@@ -1,0 +1,62 @@
+.my-form-control {
+    background-color: transparent;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    color: #ffffff;
+    transition: 0.3s all;
+    box-shadow: none;
+
+    &::placeholder {
+        color: #ffffff;
+    }
+
+    &:focus {
+        background-color: transparent;
+        outline: none;
+        border: none;
+        border-bottom: 1px solid #06a5ff;
+        box-shadow: none;
+    }
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+    background-color: #06a5ff;
+}
+.nav-pills .nav-link {
+    border-radius: 0;
+    background: rgba(255, 255, 255, 0.29);
+    color: #ffffff;
+}
+.auth-icons {
+    border-radius: 50%;
+    overflow: hidden;
+    height: 2.45em;
+    width: 2.45em;
+}
+
+.facebook-square {
+    background: url('../images/IMG1720facebook-2661207_960_720.jpg') no-repeat;
+    background-size: contain;
+}
+.twitter-square {
+    background: url('../images/640_twitter-bird-white-on-blue_2016_01_19_19_17_17.png') no-repeat;
+    background-size: contain;
+}
+
+.google-plus-square {
+    background: url('../images/google.jpg') no-repeat;
+    background-size: contain;
+}
+#auth-background {
+    background: rgba(255, 255, 255, 0.26);box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
+    margin-top: 100px !important;
+}
+#page-background {
+    background: url('../images/pexels-photo-248797.jpeg'), #818181 no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-blend-mode: multiply;
+    background-position: center;
+}

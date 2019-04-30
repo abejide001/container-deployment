@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NotFound Component should match snapshot 1`] = `
+<div>
+  <h3>
+    Specified route does not exist  
+    <code>
+      wrongroute
+    </code>
+  </h3>
+</div>
+`;

@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FeatureArrow Component should match snapshot 1`] = `
+<div
+  className="slide-arrow"
+  onClick={[Function]}
+>
+  <i
+    className="fa fa-caret-right fa-5x"
+  />
+</div>
+`;

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search Component should match snapshot 1`] = `
+<form
+  className="form-inline my-2 my-lg-0 col-md-8"
+>
+  <input
+    aria-label="Search for"
+    placeholder="Search"
+    type="search"
+  />
+</form>
+`;

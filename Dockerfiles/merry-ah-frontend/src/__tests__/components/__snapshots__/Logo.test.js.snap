@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Logo Component should match snapshot 1`] = `
+<NavLink
+  activeClassName="active"
+  aria-current="page"
+  className="navbar-brand col-lg-2 logo pull-left w-50 p-0"
+  id="brand-logo"
+  to="/"
+>
+  <img
+    alt="logo"
+    className="w-25"
+    src="test-file-stub"
+  />
+  artCave
+</NavLink>
+`;

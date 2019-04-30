@@ -1,0 +1,35 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  annotations:
+    kompose.cmd: kompose convert
+    kompose.version: 1.17.0 (a74acad)
+  creationTimestamp: null
+  labels:
+    io.kompose.service: merry-frontend
+  name: merry-frontend
+spec:
+  replicas: 3
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        io.kompose.service: merry-frontend
+    spec:
+      containers:
+      - image: abejide001/merry-frontend
+        name: merry-frontend
+        env:
+         - name: BACKEND_IP
+           valueFrom:
+            configMapKeyRef:
+              name: merry-config-map
+              key: backend_ip
+        command: ["/bin/sh"]
+        args: ["-c", "echo BACKEND_IP=$BACKEND_IP > .env; npm run build; npm run start"]
+        ports:
+        - containerPort: 80
+        resources: {}
+      restartPolicy: Always
+status: {}

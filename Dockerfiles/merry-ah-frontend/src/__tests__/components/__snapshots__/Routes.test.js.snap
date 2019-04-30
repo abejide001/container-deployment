@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Routes Component should match snapshot 1`] = `
+<Switch>
+  <Route
+    component={[Function]}
+    exact={true}
+    path="/"
+  />
+  <Route
+    component={[Function]}
+    path="/art/:category"
+  />
+  <Route
+    component={[Function]}
+    path="/auth"
+  />
+  <Connect(GuestRoute)
+    component={[Function]}
+    exact={true}
+    path="/login"
+  />
+  <Connect(GuestRoute)
+    component={[Function]}
+    exact={true}
+    path="/register"
+  >
+     
+  </Connect(GuestRoute)>
+  <Connect(PrivateRoute)
+    component={[Function]}
+    path="/profile"
+  />
+  <Connect(PrivateRoute)
+    component={[Function]}
+    path="/bookmark"
+  />
+  <Connect(PrivateRoute)
+    component={[Function]}
+    path="/create-art"
+  />
+  <Route
+    component={[Function]}
+  />
+</Switch>
+`;

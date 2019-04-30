@@ -1,0 +1,32 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: merry-postgres
+  labels:
+    name: merry-database
+spec:
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        service: merry-postgres
+    spec:
+      containers:
+      - name: merry-postgres
+        image: postgres:10.5-alpine
+        volumeMounts:
+        - name: merry-postgres-volume-mount
+          mountPath: /var/lib/postgresql/data
+          subPath: postgres
+        env:
+        - name: POSTGRES_USER
+          value: 'root'
+        - name: POSTGRES_DB
+          value: 'database_production'
+        - name: POSTGRES_PASSWORD
+          value: ''
+      restartPolicy: Always
+      volumes:
+      - name: merry-postgres-volume-mount
+        persistentVolumeClaim:
+          claimName: merry-postgres-pvc

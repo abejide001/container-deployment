@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Showcase Component should match snapshot 1`] = `
+<section
+  id="showcase"
+>
+  <div
+    id="showcase_text"
+  >
+    <div>
+      <h1>
+        Bring Unspoken 
+        <br />
+         Words to Life
+      </h1>
+      <div>
+        <a
+          href="#"
+        >
+          <button
+            className="showcase_button"
+            type="button"
+          >
+            Get Started
+          </button>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+`;

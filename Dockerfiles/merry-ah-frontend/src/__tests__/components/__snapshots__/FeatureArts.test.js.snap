@@ -1,0 +1,324 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FeaturedArts Component should match snapshot 1`] = `
+<FeaturedArts
+  activeList={
+    Array [
+      Object {
+        "category": "painting",
+        "objectID": 1,
+        "title": "Do you love art",
+        "url": "../assets/images/1.jpg",
+      },
+      Object {
+        "category": "freehand_sketch",
+        "objectID": 2,
+        "title": "Cirrhosis of the sky",
+        "url": "../assets/images/2.jpg",
+      },
+      Object {
+        "category": "mosaic",
+        "objectID": 3,
+        "title": "Walkers Short Bread",
+        "url": "../assets/images/3.jpg",
+      },
+    ]
+  }
+  artList={
+    Array [
+      Object {
+        "category": "painting",
+        "objectID": 1,
+        "title": "Do you love art",
+        "url": "../assets/images/1.jpg",
+      },
+      Object {
+        "category": "freehand_sketch",
+        "objectID": 2,
+        "title": "Cirrhosis of the sky",
+        "url": "../assets/images/2.jpg",
+      },
+      Object {
+        "category": "mosaic",
+        "objectID": 3,
+        "title": "Walkers Short Bread",
+        "url": "../assets/images/3.jpg",
+      },
+      Object {
+        "category": "mosaic",
+        "objectID": 4,
+        "title": "How to have a blast",
+        "url": "../assets/images/4.jpg",
+      },
+      Object {
+        "category": "mosaic",
+        "objectID": 5,
+        "title": "Debugging best practices",
+        "url": "../assets/images/5.jpg",
+      },
+      Object {
+        "category": "mosaic",
+        "objectID": 6,
+        "title": "Fast and furious remake",
+        "url": "../assets/images/6.jpg",
+      },
+      Object {
+        "category": "mosaic",
+        "objectID": 7,
+        "title": "Best Coder alive",
+        "url": "../assets/images/7.jpg",
+      },
+      Object {
+        "category": "mosaic",
+        "objectID": 8,
+        "title": "Fifa e-world cup",
+        "url": "../assets/images/8.jpg",
+      },
+      Object {
+        "category": "mosaic",
+        "objectID": 9,
+        "title": "Perfection at its peak",
+        "url": "../assets/images/9.jpg",
+      },
+    ]
+  }
+  data={
+    Object {
+      "activeList": Array [
+        Object {
+          "category": "painting",
+          "objectID": 1,
+          "title": "Do you love art",
+          "url": "../assets/images/1.jpg",
+        },
+        Object {
+          "category": "freehand_sketch",
+          "objectID": 2,
+          "title": "Cirrhosis of the sky",
+          "url": "../assets/images/2.jpg",
+        },
+        Object {
+          "category": "mosaic",
+          "objectID": 3,
+          "title": "Walkers Short Bread",
+          "url": "../assets/images/3.jpg",
+        },
+      ],
+      "artList": Array [
+        Object {
+          "category": "painting",
+          "objectID": 1,
+          "title": "Do you love art",
+          "url": "../assets/images/1.jpg",
+        },
+        Object {
+          "category": "freehand_sketch",
+          "objectID": 2,
+          "title": "Cirrhosis of the sky",
+          "url": "../assets/images/2.jpg",
+        },
+        Object {
+          "category": "mosaic",
+          "objectID": 3,
+          "title": "Walkers Short Bread",
+          "url": "../assets/images/3.jpg",
+        },
+        Object {
+          "category": "mosaic",
+          "objectID": 4,
+          "title": "How to have a blast",
+          "url": "../assets/images/4.jpg",
+        },
+        Object {
+          "category": "mosaic",
+          "objectID": 5,
+          "title": "Debugging best practices",
+          "url": "../assets/images/5.jpg",
+        },
+        Object {
+          "category": "mosaic",
+          "objectID": 6,
+          "title": "Fast and furious remake",
+          "url": "../assets/images/6.jpg",
+        },
+        Object {
+          "category": "mosaic",
+          "objectID": 7,
+          "title": "Best Coder alive",
+          "url": "../assets/images/7.jpg",
+        },
+        Object {
+          "category": "mosaic",
+          "objectID": 8,
+          "title": "Fifa e-world cup",
+          "url": "../assets/images/8.jpg",
+        },
+        Object {
+          "category": "mosaic",
+          "objectID": 9,
+          "title": "Perfection at its peak",
+          "url": "../assets/images/9.jpg",
+        },
+      ],
+    }
+  }
+  nextSlide={[Function]}
+  previousSlide={[Function]}
+  setInitData={[Function]}
+>
+  <div>
+    <div
+      id="feature_list"
+    >
+      <div
+        id="featured_arts_header"
+      >
+        <h5>
+          Featured Arts
+        </h5>
+        <hr />
+      </div>
+      <FeatureCard
+        activeClass="cards_inactive"
+        imgUrl="../assets/images/1.jpg"
+        key="1"
+        title="Do you love art"
+      >
+        <div
+          className="cards_inactive"
+          id="cards"
+          style={
+            Object {
+              "background": "linear-gradient(rgba(0, 0, 0, 0.5), 
+                    rgba(0, 0, 0, 0.5)), url(../assets/images/1.jpg) no-repeat center ",
+              "backgroundSize": "cover",
+            }
+          }
+        >
+          <div
+            id="feature_button_div"
+          >
+            <h5>
+              Do you love art
+            </h5>
+            <FeatureButton
+              myclass="feature_button_inactive"
+              text="View"
+            >
+              <button
+                className="feature_button_inactive"
+              >
+                View
+              </button>
+            </FeatureButton>
+          </div>
+        </div>
+      </FeatureCard>
+      <FeatureCard
+        activeClass="cards_active"
+        imgUrl="../assets/images/2.jpg"
+        key="2"
+        title="Cirrhosis of the sky"
+      >
+        <div
+          className="cards_active"
+          id="cards"
+          style={
+            Object {
+              "background": "linear-gradient(rgba(0, 0, 0, 0.5), 
+                    rgba(0, 0, 0, 0.5)), url(../assets/images/2.jpg) no-repeat center ",
+              "backgroundSize": "cover",
+            }
+          }
+        >
+          <div
+            id="feature_button_div"
+          >
+            <h5>
+              Cirrhosis of the sky
+            </h5>
+            <FeatureButton
+              myclass="feature_button_inactive"
+              text="View"
+            >
+              <button
+                className="feature_button_inactive"
+              >
+                View
+              </button>
+            </FeatureButton>
+          </div>
+        </div>
+      </FeatureCard>
+      <FeatureCard
+        activeClass="cards_inactive"
+        imgUrl="../assets/images/3.jpg"
+        key="3"
+        title="Walkers Short Bread"
+      >
+        <div
+          className="cards_inactive"
+          id="cards"
+          style={
+            Object {
+              "background": "linear-gradient(rgba(0, 0, 0, 0.5), 
+                    rgba(0, 0, 0, 0.5)), url(../assets/images/3.jpg) no-repeat center ",
+              "backgroundSize": "cover",
+            }
+          }
+        >
+          <div
+            id="feature_button_div"
+          >
+            <h5>
+              Walkers Short Bread
+            </h5>
+            <FeatureButton
+              myclass="feature_button_inactive"
+              text="View"
+            >
+              <button
+                className="feature_button_inactive"
+              >
+                View
+              </button>
+            </FeatureButton>
+          </div>
+        </div>
+      </FeatureCard>
+      <div
+        id="carousel_control"
+      >
+        <Arrow
+          className="slide-arrow"
+          clickFunction={[Function]}
+          direction="left"
+        >
+          <div
+            className="slide-arrow"
+            onClick={[Function]}
+          >
+            <i
+              className="fa fa-caret-left fa-5x"
+            />
+          </div>
+        </Arrow>
+        <Arrow
+          className="slide-arrow"
+          clickFunction={[Function]}
+          direction="right"
+        >
+          <div
+            className="slide-arrow"
+            onClick={[Function]}
+          >
+            <i
+              className="fa fa-caret-right fa-5x"
+            />
+          </div>
+        </Arrow>
+      </div>
+    </div>
+  </div>
+</FeaturedArts>
+`;

@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Gloria+Hallelujah|Poppins|Fredericka+the+Great');
+$font-stack: 'Poppins', Helvetica, sans-serif;
+$font-artistic: 'Gloria Hallelujah', cursive;;
+$primary-color: #06a5ff;
+
+* {
+  margin: 0;
+  padding: 0;
+};
+
+body {
+  font: 100% $font-stack;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+	position: relative;
+}
+@media (min-width: 1200px){
+  .container {
+    max-width: 1400px;
+  }
+}
+
+input, textarea, button {
+  outline: none;
+};
+a:hover {
+  text-decoration: none;
+  color: $primary-color;
+}
+
+.btn-primary {
+  background-color: $primary-color;
+  border-color: $primary-color;
+}
+
+.text-poppins {
+	font-family: $font-stack;
+}
+
+.text-artistic {
+  font-family: $font-artistic;
+  letter-spacing: .1em;
+}
+button{
+  height: 45px;
+}
+
+nav {
+  position: fixed !important;
+  top: 0;
+  z-index: 99;
+  width: 100%;
+}

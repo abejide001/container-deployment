@@ -1,0 +1,190 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Categories Component should match snapshot 1`] = `
+<section
+  id="categories"
+>
+  <div>
+    <div
+      className="image"
+      id="category"
+      key="1"
+      style={
+        Object {
+          "background": "linear-gradient(rgba(0, 0, 0, 0.5), 
+                            rgba(0, 0, 0, 0.5)),
+                            url(test-file-stub) no-repeat center ",
+          "backgroundSize": "cover",
+        }
+      }
+    >
+      <div
+        className="overlay"
+      >
+        <span>
+          <div
+            id="category_link"
+          >
+            <Link
+              replace={false}
+              to="/art/painting"
+            >
+              PAINTING
+            </Link>
+          </div>
+        </span>
+      </div>
+    </div>
+    <div
+      className="image"
+      id="category"
+      key="2"
+      style={
+        Object {
+          "background": "linear-gradient(rgba(0, 0, 0, 0.5), 
+                            rgba(0, 0, 0, 0.5)),
+                            url(test-file-stub) no-repeat center ",
+          "backgroundSize": "cover",
+        }
+      }
+    >
+      <div
+        className="overlay"
+      >
+        <span>
+          <div
+            id="category_link"
+          >
+            <Link
+              replace={false}
+              to="/art/freehand_sketch"
+            >
+              FREEHAND SKETCH
+            </Link>
+          </div>
+        </span>
+      </div>
+    </div>
+    <div
+      className="image"
+      id="category"
+      key="3"
+      style={
+        Object {
+          "background": "linear-gradient(rgba(0, 0, 0, 0.5), 
+                            rgba(0, 0, 0, 0.5)),
+                            url(test-file-stub) no-repeat center ",
+          "backgroundSize": "cover",
+        }
+      }
+    >
+      <div
+        className="overlay"
+      >
+        <span>
+          <div
+            id="category_link"
+          >
+            <Link
+              replace={false}
+              to="/art/mosaic"
+            >
+              MOSAIC
+            </Link>
+          </div>
+        </span>
+      </div>
+    </div>
+    <div
+      className="image"
+      id="category"
+      key="4"
+      style={
+        Object {
+          "background": "linear-gradient(rgba(0, 0, 0, 0.5), 
+                            rgba(0, 0, 0, 0.5)),
+                            url(test-file-stub) no-repeat center ",
+          "backgroundSize": "cover",
+        }
+      }
+    >
+      <div
+        className="overlay"
+      >
+        <span>
+          <div
+            id="category_link"
+          >
+            <Link
+              replace={false}
+              to="/art/sculpture"
+            >
+              SCULPTURE
+            </Link>
+          </div>
+        </span>
+      </div>
+    </div>
+    <div
+      className="image"
+      id="category"
+      key="5"
+      style={
+        Object {
+          "background": "linear-gradient(rgba(0, 0, 0, 0.5), 
+                            rgba(0, 0, 0, 0.5)),
+                            url(test-file-stub) no-repeat center ",
+          "backgroundSize": "cover",
+        }
+      }
+    >
+      <div
+        className="overlay"
+      >
+        <span>
+          <div
+            id="category_link"
+          >
+            <Link
+              replace={false}
+              to="/art/architecture"
+            >
+              ARCHITECTURE
+            </Link>
+          </div>
+        </span>
+      </div>
+    </div>
+    <div
+      className="image"
+      id="category"
+      key="6"
+      style={
+        Object {
+          "background": "linear-gradient(rgba(0, 0, 0, 0.5), 
+                            rgba(0, 0, 0, 0.5)),
+                            url(test-file-stub) no-repeat center ",
+          "backgroundSize": "cover",
+        }
+      }
+    >
+      <div
+        className="overlay"
+      >
+        <span>
+          <div
+            id="category_link"
+          >
+            <Link
+              replace={false}
+              to="/art/poetry"
+            >
+              POETRY
+            </Link>
+          </div>
+        </span>
+      </div>
+    </div>
+  </div>
+</section>
+`;
