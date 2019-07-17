@@ -12,7 +12,6 @@ COPY package.json /root/activo-web
 
 RUN yarn install 
 
-
 RUN yarn remove node-sass
 
 # # same issue above occurs here
