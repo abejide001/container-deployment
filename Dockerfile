@@ -10,19 +10,16 @@ WORKDIR /root/activo-web
 COPY yarn.lock /root/activo-web
 COPY package.json /root/activo-web
 
-# The commend below and the commented out code were le
-# After the package.json is copied,
-# all dependencies are then installed with this command
-# RUN yarn install 
+RUN yarn install 
 
 
-# RUN yarn remove node-sass
+RUN yarn remove node-sass
 
 # # same issue above occurs here
-# RUN yarn add node-sass
+RUN yarn add node-sass
 
 # # same issue above occurs here
-# RUN yarn add react-tooltip
+RUN yarn add react-tooltip
 
 # update the Alpine image and install curl
 RUN apk update && apk add curl 
